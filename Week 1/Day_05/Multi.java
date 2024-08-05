@@ -1,5 +1,5 @@
 /**
- * A program to print the multiplication table.
+ * A program to print the multiplication table of a given number n.
  */
 
 import java.util.Scanner;
