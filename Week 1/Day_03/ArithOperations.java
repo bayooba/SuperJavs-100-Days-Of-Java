@@ -4,15 +4,16 @@ public class ArithOperations {
         // Declaring variables
         int a, b, sum, diff, prod, div, mod;
 
-        // using the Scanner class to take input from the user
-        Scanner sc = new Scanner(System.in);
+        try ( // using the Scanner class to take input from the user
+                Scanner sc = new Scanner(System.in)
         // taking input from the user
-    
-        System.out.println("Enter a number: ");
-        a = sc.nextInt();
-    
-        System.out.println("Enter another number: ");
-        b = sc.nextInt();
+        ) {
+            System.out.println("Enter a number: ");
+            a = sc.nextInt();
+            
+            System.out.println("Enter another number: ");
+            b = sc.nextInt();
+        }
         
         // performing arithmetic operations
         sum = a + b;    // addition or sum
