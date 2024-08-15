@@ -1,6 +1,6 @@
 public class Car {
     private String brand;
-    private String model; // Make model final
+    private String model;
     private int year;
     private String color;
     
